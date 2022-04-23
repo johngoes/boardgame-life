@@ -1,8 +1,9 @@
+import Splash from "./components/Layout/Splash";
 
 function App() {
   return (
-    <div className="App">
-      Jogo Da Vida
+    <div className="App h-full bg-slate-600">
+      <Splash />
     </div>
   );
 }
